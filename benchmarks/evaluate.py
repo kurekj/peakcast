@@ -14,6 +14,7 @@ import math
 import os
 import sys
 from collections import defaultdict
+from fractions import Fraction
 
 import numpy as np
 
@@ -115,10 +116,16 @@ def autobatch_rule(u, fraction: float) -> int | None:
            if b in rows and rows[b]["status"] == "ok" and b <= u.lo]
     if len(pts) < 2:
         return None
-    slope, intercept = np.polyfit([p[0] for p in pts], [p[1] for p in pts], 1)
+    # least squares in exact arithmetic, so that the truncation below does not depend on the platform
+    n = len(pts)
+    sx, sy = sum(b for b, _ in pts), sum(m for _, m in pts)
+    sxx, sxy = sum(b * b for b, _ in pts), sum(b * m for b, m in pts)
+    slope = Fraction(n * sxy - sx * sy, n * sxx - sx * sx)
     if slope <= 0:
         return None
-    return max(0, int((u.cap * fraction - intercept) / slope))
+    intercept = (sy - slope * sx) / n
+    target = u.cap * Fraction(fraction).limit_denominator(1000)
+    return max(0, math.floor((target - intercept) / slope))
 
 
 # ----------------------------------------------------------------------------
