@@ -1,0 +1,12 @@
+{"model": "resnet50", "batch": 8, "steps": 30, "alloc_2": 1076570112, "reserved_2": 1233125376, "alloc_n": 1076570112, "reserved_n": 1233125376}
+{"model": "resnet50", "batch": 64, "steps": 30, "alloc_2": 5894105088, "reserved_2": 6633291776, "alloc_n": 5894105088, "reserved_n": 6633291776}
+{"model": "densenet121", "batch": 8, "steps": 30, "alloc_2": 1172002304, "reserved_2": 1319108608, "alloc_n": 1172002304, "reserved_n": 1319108608}
+{"model": "densenet121", "batch": 64, "steps": 30, "alloc_2": 8507258880, "reserved_2": 9468641280, "alloc_n": 8507258880, "reserved_n": 9468641280}
+{"model": "convnext_tiny", "batch": 8, "steps": 30, "alloc_2": 1261287424, "reserved_2": 1396703232, "alloc_n": 1261287424, "reserved_n": 1514143744}
+{"model": "convnext_tiny", "batch": 64, "steps": 30, "alloc_2": 7434344960, "reserved_2": 8017412096, "alloc_n": 7434344960, "reserved_n": 8017412096}
+{"model": "swin_t", "batch": 8, "steps": 30, "alloc_2": 1246821376, "reserved_2": 1428160512, "alloc_n": 1246844416, "reserved_n": 1505755136}
+{"model": "swin_t", "batch": 64, "steps": 30, "alloc_2": 7270557696, "reserved_2": 7858028544, "alloc_n": 7270557696, "reserved_n": 7858028544}
+{"model": "hf_gpt2_small", "batch": 8, "steps": 30, "alloc_2": 3300755456, "reserved_2": 3460300800, "alloc_n": 3300755456, "reserved_n": 3460300800}
+{"model": "hf_gpt2_small", "batch": 64, "steps": 30, "alloc_2": 15719946240, "reserved_2": 16485711872, "alloc_n": 15719946240, "reserved_n": 16485711872}
+{"model": "hf_llama_m", "batch": 8, "steps": 30, "alloc_2": 2822745088, "reserved_2": 3225419776, "alloc_n": 2822745088, "reserved_n": 3225419776}
+{"model": "hf_llama_m", "batch": 64, "steps": 30, "alloc_2": 11084250112, "reserved_2": 12142510080, "alloc_n": 11084250112, "reserved_n": 12142510080}

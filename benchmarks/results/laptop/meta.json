@@ -1,0 +1,8 @@
+{
+ "gpu": "NVIDIA RTX PRO 5000 Blackwell Generation Laptop GPU",
+ "gpu_total": 25650855936,
+ "torch": "2.14.1+cu130",
+ "grid_rows": 5693,
+ "truth_rows": 1159,
+ "failed_models": []
+}

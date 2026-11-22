@@ -1,0 +1,12 @@
+{"model": "vgg16", "batch": 8, "steps": 30, "alloc_2": 2824094720, "reserved_2": 3573547008, "alloc_n": 2824094720, "reserved_n": 3573547008}
+{"model": "vgg16", "batch": 64, "steps": 30, "alloc_2": 7033373696, "reserved_2": 10693378048, "alloc_n": 7033373696, "reserved_n": 10693378048}
+{"model": "efficientnet_b0", "batch": 8, "steps": 30, "alloc_2": 791793664, "reserved_2": 853540864, "alloc_n": 791793664, "reserved_n": 853540864}
+{"model": "efficientnet_b0", "batch": 64, "steps": 30, "alloc_2": 5764043264, "reserved_2": 6434062336, "alloc_n": 5764043264, "reserved_n": 6434062336}
+{"model": "vit_b_16", "batch": 8, "steps": 30, "alloc_2": 2088534016, "reserved_2": 2325741568, "alloc_n": 2088689664, "reserved_n": 2325741568}
+{"model": "vit_b_16", "batch": 64, "steps": 30, "alloc_2": 9281253376, "reserved_2": 9565110272, "alloc_n": 9281253376, "reserved_n": 9565110272}
+{"model": "hf_bert_base", "batch": 8, "steps": 30, "alloc_2": 2249916928, "reserved_2": 2430599168, "alloc_n": 2249916928, "reserved_n": 2430599168}
+{"model": "hf_bert_base", "batch": 64, "steps": 30, "alloc_2": 6534318080, "reserved_2": 6811549696, "alloc_n": 6534318080, "reserved_n": 6811549696}
+{"model": "hf_t5_small", "batch": 8, "steps": 30, "alloc_2": 1728322560, "reserved_2": 1958739968, "alloc_n": 1728322560, "reserved_n": 1958739968}
+{"model": "hf_t5_small", "batch": 64, "steps": 30, "alloc_2": 8670714880, "reserved_2": 9833545728, "alloc_n": 8670714880, "reserved_n": 9833545728}
+{"model": "custom_lstm_lm", "batch": 8, "steps": 30, "alloc_2": 871924224, "reserved_2": 1027604480, "alloc_n": 871924224, "reserved_n": 1027604480}
+{"model": "custom_lstm_lm", "batch": 64, "steps": 30, "alloc_2": 3825263104, "reserved_2": 4714397696, "alloc_n": 3825263104, "reserved_n": 4714397696}

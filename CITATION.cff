@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "peakcast: calibrated forecasts of the peak GPU memory of PyTorch training steps"
+type: software
+authors:
+  - family-names: Bieniek
+    given-names: Mateusz
+  - family-names: Kurek
+    given-names: "Jarosław"
+version: 0.1.0
+date-released: 2026-11-21
+license: MIT
+repository-code: "https://github.com/kurekj/peakcast"
+keywords:
+  - PyTorch
+  - GPU memory
+  - batch size
+  - out of memory
+  - conformal prediction

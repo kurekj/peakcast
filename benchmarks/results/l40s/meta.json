@@ -1,0 +1,25 @@
+{
+ "gpu": "NVIDIA L40S",
+ "gpu_total": 47667740672,
+ "torch": "2.15.0+cu132",
+ "grid_rows": 12770,
+ "truth_rows": 3301,
+ "failed_models": [
+  {
+   "model": "custom_mlp",
+   "error": "ValueError: uninitialised lazy parameters when counting the parameters of the model"
+  },
+  {
+   "model": "hf_xlnet_base",
+   "error": "NotImplementedError('The model xlnet is one of the few models that has no sequence length limit.')"
+  },
+  {
+   "model": "timm_eva02_tiny_patch14_224",
+   "error": "CUDA_ERROR_ASSERT from the device while building the first step"
+  },
+  {
+   "model": "timm_levit_256",
+   "error": "no batch size could be measured: RuntimeError('The size of tensor a (256) must match the size of tensor b (196) at non-singleton dimension 3')"
+  }
+ ]
+}
