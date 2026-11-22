@@ -29,7 +29,7 @@ print(law.max_batch(risk=0.01))   # largest batch size whose upper bound fits th
 ## Installation
 
 ```bash
-pip install peakcast            # needs numpy; PyTorch 2.1 or newer must be installed for fit()
+pip install git+https://github.com/kurekj/peakcast@v0.1.0    # needs numpy; PyTorch 2.1 or newer must be installed for fit()
 ```
 
 From source: `pip install -e ".[dev]"`, then `pytest` and `ruff check .`.

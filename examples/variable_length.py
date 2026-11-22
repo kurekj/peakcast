@@ -4,7 +4,7 @@ The law is fitted from probes at lengths 32, 64 and 128 and then asked about
 lengths up to 512. Samples are grouped into length buckets and every bucket
 gets the largest batch size that fits the budget.
 
-    pip install peakcast torch
+    pip install git+https://github.com/kurekj/peakcast@v0.1.0 torch
     python examples/variable_length.py
 """
 

@@ -1,6 +1,6 @@
 """Largest safe batch size for a ResNet-50 training step, without running out of memory.
 
-    pip install peakcast torch torchvision
+    pip install git+https://github.com/kurekj/peakcast@v0.1.0 torch torchvision
     python examples/quickstart.py
 """
 
